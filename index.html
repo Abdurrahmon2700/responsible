@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="flexboxgrid.css">
+  <link rel="stylesheet" href="main.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <nav class="header__nav row between-xs">
+        <div>
+          <img class="header__logo" src="img/logo-white.svg" alt="logo-white">
+        </div>
+        <ul class="header__list" id="modal">
+          <li class="header__item"><a class="header__link"href="#">Product</a></li>
+          <li class="header__item"><a class="header__link"href="#">Customers</a></li>
+          <li class="header__item"><a class="header__link"href="#">Pricing</a></li>
+          <li class="header__item"><a class="header__link-active"href="#">Resources</a></li>
+          <li class="header__item"><a class="header__link-button"href="#">Sign In</a></li>
+          <li class="header__item"><a class="header__link-btn"href="#">Sign Up</a></li>
+          <li class="header__item"><a class="header__link"href="#"><img class="header__dark" id="modebtn" src="img/dark.svg" alt="dark"></a></li>
+        </ul>
+        <button class="header__menubtn" id="open">
+          <i class='bx bx-menu'></i>
+        </button>
+        <button class="header__close" id="close">
+          <i class='bx bx-x bx-tada' id="close" style='color:#fff' ></i>
+        </button>
+      </nav>
+    </header>
+    <div class="hero row">
+       <div class="col-xs-6 hero__left">
+         <h1 class="hero__title">Great Business made with Product.</h1>
+         <p class="hero__text">Build better customer relationships easily messaging that provides a more personal experience for you and your customers.</p>
+         <div class="row hero__input">
+           <input class="hero__input-part" type="text" placeholder="Enter your email adress">
+           <a class="hero__join" href="#">Join Now</a>
+         </div>
+         <div class="row middle-xs">
+           <img class="hero__oval" src="img/Oval.png" alt="Oval">
+           <img class="hero__oval" src="img/Oval (1).png" alt="Oval">
+           <img class="hero__oval" src="img/Oval (2).png" alt="Oval">
+           <p class="hero__oval-text">Join over 4,000+ other</p>
+         </div>
+       </div> 
+       <div class="col-xs-6 hero__right">
+        <img class="hero__screen" src="img/screenmask.svg" alt="screen">
+       </div> 
+    </div>
+    <main class="stories">
+      <h2 class="stories__title">Latest Stories</h2>
+      <p class="stories__text">We focus on ergonomics and meeting you where you work. It's only a keystroke away. </p>
+      <ul class="row between stories__list">
+        <li class="col-xs-4 stories__item">
+          <img class="stories__img" src="img/Image Placeholder.png" alt="placeholder">
+          <p class="stories__ietm-month">By Wahid Ari |  03 March 2019</p>
+          <h4 class="stories__item__title">Increasing Prosperity With Positive Thinking</h4>
+        </li>
+        <li class="col-xs-4 stories__item">
+          <img class="stories__img" src="img/Image Placeholder (1).png" alt="placeholder">
+          <p class="stories__ietm-month">By Wahid Ari |  03 March 2019</p>
+          <h4 class="stories__item__title">Motivation Is The First Step To Success</h4>
+        </li>
+        <li class="col-xs-4 stories__item">
+          <img class="stories__img" src="img/Image Placeholder (2).png" alt="placeholder">
+          <p class="stories__ietm-month">By Wahid Ari |  03 March 2019</p>
+          <h4 class="stories__item__title">Success Steps For Your Personal Or Business</h4>
+        </li>
+        <li class="col-xs-4 stories__item">
+          <img class="stories__img" src="img/Image Placeholder (3).png" alt="placeholder">
+          <p class="stories__ietm-month">By Wahid Ari |  03 March 2019</p>
+          <h4 class="stories__item__title">Increasing Prosperity With Positive Thinking</h4>
+        </li>
+        <li class="col-xs-4 stories__item">
+          <img class="stories__img" src="img/Image Placeholder (4).png" alt="placeholder">
+          <p class="stories__ietm-month">By Wahid Ari |  03 March 2019</p>
+          <h4 class="stories__item__title">Motivation Is The First Step To Success</h4>
+        </li>
+        <li class="col-xs-4 stories__item">
+          <img class="stories__img" src="img/Image Placeholder (5).png" alt="placeholder">
+          <p class="stories__ietm-month">By Wahid Ari |  03 March 2019</p>
+          <h4 class="stories__item__title">Success Steps For Your Personal Or Business</h4>
+        </li>
+      </ul>
+      <div class="contact">
+        <h3 class="contact__title">Contact Us</h3>
+        <p class="contact__text">Need more detailed information? Get in touch with us.</p>
+         <div class="row contact__social">
+           <img src="img/instagram.svg" alt="instagram">
+           <img src="img/facebook.svg" alt="facebook">
+           <img src="img/twitter.svg" alt="twitter">
+         </div>
+      </div>
+      <div>
+        <iframe class="map__najot" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11992.292271740207!2d69.2038126!3d41.2855142!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd7a2ecf23413b7a0!2sNajot%20Ta&#39;lim%20Chilonzor%20Filial!5e0!3m2!1sen!2s!4v1644270287432!5m2!1sen!2s"style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+      <div class="form">
+        <h4 class="forma__title">Send a message</h4>
+        <input class="forma__name" type="text" placeholder="Enter name">
+        <input class="forma__text" type="email" placeholder="email">
+        <textarea class="forma__letter" name="text" id="text" cols="30" rows="10" placeholder="enter text"></textarea>
+        <div>
+          <a class="from__btn" href="#">Submit</a>
+        </div>
+      </div>
+    </main>
+    <script src="./java.js"></script>
+  </div>
+</body>
+</html>
